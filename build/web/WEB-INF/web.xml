@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	 version="6.0">
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    
+    
+    
+    <servlet>
+        
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>basic.MyServlet</servlet-class>
+        
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/app</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        
+          <servlet-name>Demo</servlet-name>
+        <servlet-class>basic.Demo</servlet-class>
+        
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Demo</servlet-name>
+        <url-pattern>/form</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+     <servlet>
+        <servlet-name>FirstServ</servlet-name>
+        <servlet-class>basic.FirstServ</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FirstServ</servlet-name>
+        <url-pattern>/FirstServ</url-pattern>
+    </servlet-mapping>
+    
+    
+
+
+
+    <servlet>
+        <servlet-name>SecondServ</servlet-name>
+        <servlet-class>basic.SecondServ</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SecondServ</servlet-name>
+        <url-pattern>/SecondServ</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet>
+        <servlet-name>HttpServ</servlet-name>
+        <servlet-class>basic.HttpServ</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HttpServ</servlet-name>
+        <url-pattern>/HttpServ</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>SecondHttpServ</servlet-name>
+        <servlet-class>basic.SecondHttpServ</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SecondHttpServ</servlet-name>
+        <url-pattern>/SecondHttpServ</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet>
+        <servlet-name>Process</servlet-name>
+        <servlet-class>basic.Process</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Process</servlet-name>
+        <url-pattern>/Process</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+        <servlet>
+        <servlet-name>FetchMovie</servlet-name>
+        <servlet-class>basic.FetchMovie</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>FetchMovie</servlet-name>
+        <url-pattern>/FetchMovie</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+</web-app>
